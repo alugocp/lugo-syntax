@@ -1,6 +1,6 @@
+graphics/*.kra
 npm-debug.log
 node_modules
 styles-old
 .DS_Store
-graphics
 tests
