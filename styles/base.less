@@ -47,20 +47,20 @@ atom-text-editor {
 }
 .syntax--keyword {
   color:@black;
-  &.syntax--control {
-    font-weight:bold;
-  }
-  &.syntax--operator {
-    font-weight:bold;
-  }
+  font-weight:bold;
   &.syntax--other.syntax--special-method {
+  font-weight:normal;
     color:@purple;
   }
   &.syntax--other.syntax--unit {
+    font-weight:normal;
     color:@orange;
   }
-  &.syntax--other{
+}
+.syntax--operator {
+  &.syntax--control{
     font-weight:bold;
+    color:@black;
   }
 }
 .syntax--storage {
@@ -90,9 +90,12 @@ atom-text-editor {
     color:@syntax-text-color;
   }
 }
-.syntax--invalid.syntax--illegal {
+.syntax--invalid.syntax--deprecated {
+  background-color:@orange;
   color:@syntax-background-color;
-  background-color:@red;
+  &.syntax--illegal{
+    background-color:@red;
+  }
 }
 .syntax--string {
   color:@orange;
