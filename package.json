@@ -4,11 +4,13 @@
   "version":"0.0.0",
   "description":"My very own light syntax theme (one that won't burn out your eyes)",
   "keywords":[
+    "alex lugo",
     "syntax",
-    "theme"
+    "light",
+    "theme",
+    "lugo"
   ],
   "repository":"https://github.com/atom/lugo-syntax",
-  "license":"MIT",
   "engines":{
     "atom":">=1.0.0 <2.0.0"
   }
