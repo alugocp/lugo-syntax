@@ -1,17 +1,17 @@
 {
-  "name":"lugo-syntax",
-  "theme":"syntax",
-  "version":"0.0.0",
-  "description":"My very own light syntax theme (one that won't burn out your eyes)",
-  "keywords":[
+  "name": "lugo-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "My very own light syntax theme (one that won't burn out your eyes)",
+  "keywords": [
     "alex lugo",
     "syntax",
     "light",
     "theme",
     "lugo"
   ],
-  "repository":"https://github.com/alugocp/lugo-syntax",
-  "engines":{
-    "atom":">=1.0.0 <2.0.0"
+  "repository": "https://github.com/alugocp/lugo-syntax",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
